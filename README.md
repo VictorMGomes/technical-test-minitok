@@ -92,4 +92,3 @@ During development, you can access the API documentation at the following endpoi
 ## Notes
 
 - Ensure all dependencies are installed and environment variables are correctly configured before running the commands.
-- Use the provided `docker-compose` file to manage the MongoDB container. *(Update this if you actually use PostgreSQL instead.)*
