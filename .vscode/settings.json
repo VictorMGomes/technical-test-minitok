@@ -1,0 +1,20 @@
+{
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.workingDirectories": [
+    {
+      "pattern": "src/**/*.ts",
+      "configFile": "./backend.eslint.config.mjs",
+      "excludePattern": "src/frontend/**"
+    },
+    {
+      "pattern": "src/frontend/**/*.{ts,tsx}",
+      "configFile": "frontend.eslint.config.js",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortMembers": "explicit"
+      }
+    }
+  ],
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }]
+}
