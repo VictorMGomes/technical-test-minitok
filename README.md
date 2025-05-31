@@ -18,6 +18,7 @@ This project is built on two of my personal projects:
 ## Prerequisites
 
 - **Docker**: Ensure Docker is installed and running on your system.
+- **Docker Compose**: Ensure Docker Compose is installed and running on your system.
 
 ## Setup Instructions
 
@@ -63,12 +64,12 @@ This project is built on two of my personal projects:
 
 ### Backend Startup Commands
 
-1. **Generate ORM Client Types**  
+1. **Generate ORM Database Client and Types**  
    ```bash
    npm run Backend:DB:Generate
    ```
 
-2. **Apply Database Schema**  
+2. **Apply Database Schema to Database**  
    ```bash
    npm run Backend:DB:Push
    ```
