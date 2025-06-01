@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import * as packageJson from 'package.json';
+import * as packageJson from '@/backend/../../package.json';
 import type { PackageJsonType } from './system.schema';
 
 const typedPackageJson = packageJson as PackageJsonType;
